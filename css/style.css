@@ -47,8 +47,8 @@
 }
 #resume-template{
   width: 70%;
-  margin: 0 auto 50px auto;
-  padding: 25px 25px 25px 25px;
+  margin: 0 auto 5% auto;
+  padding: 1% 1% 1% 1%;
   background-color: #F5FFFA;
 }
 
@@ -56,10 +56,42 @@
   *hobbies page css
   */
   
-.hobbies-page-background {
-  background-image: url("background.jpg");
-  background-repeat: no-repeat;
-   background-size: cover;
+#hobbies-page-background {
+  background-color: #FFC0CB;
+}
+#page-wrapper {
+  width: 1440x;
+  margin: 0 30px;
+}
+#section-one {
+  background-color:#EE82EE;
+  text-align: left;
+  float: left;
+  width: 470px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 10px 30px;
+}
+#section-two {
+  background-color:#D8BFD8;
+  float: left;
+  width: 470px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 10px 30px;
+}
+#section-three {
+  background-color:#FA8072;
+  float: left;
+  width: 470px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 10px 30px;
+}
+
+.img {
+  width: 430px;
+  height: auto;
 }
 
 /**
