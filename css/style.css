@@ -1,8 +1,10 @@
 /**
   *navigation css
   */
+  
 #main-navbar {
   overflow: hidden;
+  background-color: #87CEFA;
 }
 #navbar-container {
   float: left;
@@ -59,7 +61,7 @@
 #hobbies-page-background {
   background-color: #FFC0CB;
 }
-#page-wrapper {
+#hobbies-wrapper {
   width: 1440x;
   margin: 0 30px;
 }
@@ -92,6 +94,41 @@
 .img {
   width: 430px;
   height: auto;
+}
+
+/**
+  *frusciante page css
+  */
+
+#frusciante-page {
+  background-color: #FFC0CB;
+  font-family: 'New Rocker', cursive;
+  background-image: url("frubg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+#frupage-wrapper {
+  width: 100%;
+}
+#frupage-section-one {
+  background-color:#4682B4;
+  float: left;
+  width: 45%;
+  border: 1px solid black;
+  text-align: center;
+  padding: 1%;
+  margin: 0 1.5% 2%;
+}
+#frupage-section-two {
+  background-color:#4682B4;
+  float: left;
+  width: 45%;
+  border: 1px solid black;
+  text-align: center;
+  padding: 1%;
+  margin: 0 1% 2%;
 }
 
 /**
