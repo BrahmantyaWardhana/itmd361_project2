@@ -2,41 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>ITMD 361 - Web Development</title>
+  <title>Resume</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
 </head>
-<body>
+<body class="resume-page-background">
   <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Resume</a></li>
-        <li><a href="hobbies.html">Hobbies</a></li>
-        <li><a href="frusciante.html">Favorite Artist</a></li>
-      </ul>
+    <nav id="main-navbar">
+      <div id="navbar-container">
+        <ul>
+          <li id="onpage"><a href="index.html">Resume</a></li>
+          <li><a href="hobbies.html">Hobbies</a></li>
+          <li><a href="frusciante.html">Favorite Artist</a></li>
+        </ul>
+      </div>
     </nav>
   </header>
+  <div id="resume-template">
   <section>
-    <h1>Brahmantya Bayu Wardhana</h1>
-    <p>brahmantya.wardhana@gmail.com</p>
-    <p>(773) 406-1160</p>
-    <p>Chicago,IL 60616</p>
+    <h1 id="center-text">Brahmantya Bayu Wardhana</h1>
+    <p id="center-text">brahmantya.wardhana@gmail.com | (773) 406-1160 | Chicago,IL 60616</p>
   </section>
   <section>
-    <h2>Education</h2>
-    <p><strong>Suffolk University: Fall 2020-Spring 2022</strong></p>
-    <ul>
+    <h2 id="border-bottom">Education</h2>
+    <p id="float-left"><strong>Suffolk University:</strong></p>
+    <p id="float-right"><strong>Fall 2020 - Spring 2022</strong></p>
+    <ul id="clear">
       <li>Big Data & Business Analytics Major, Cybersecurity Minor</li>
       <li>GPA 3.94</li>
     </ul>
-    <p><strong>Illinois Institute of Technology: Fall 2022-Present</strong></p>
-    <ul>
+    <p id="float-left"><strong>Illinois Institute of Technology:</strong></p>
+    <p id="float-right"><strong>Fall 2022-Present</strong></p>
+    <ul id="clear">
       <li>Information Technology and Management Major</li>
       <li>GPA 4.00</li>
     </ul>
   </section>
   <section>
-    <h2>Projects</h2>
-    <p><strong>Liberty Mutual Project</strong></p>
-    <ul>
+    <h2 id="border-bottom">Projects</h2>
+    <p id="float-left"><strong>Liberty Mutual Project</strong></p>
+    <p id="float-right"><strong>Spring 2022</strong></p>
+    <ul id="clear">
       <li>Competed in a university wide competition to help Liberty Mutual find solutions to attract gen Z consumers</li>
       <li>Collaborated in a team to research the problem and find solutions</li>
       <li>Was chosen as the top 8 group out of 52 groups to present our findings</li>
@@ -47,7 +53,7 @@
     </ul>
   </section>
   <section>
-    <h2>Technical Skill</h2>
+    <h2 id="border-bottom">Additional Skills</h2>
     <ul>
       <li>Java</li>
       <li>Javascript</li>
@@ -58,5 +64,6 @@
       <li>SQL</li>
     </ul>
   </section>
+  </div>
 </body>
 </html>
