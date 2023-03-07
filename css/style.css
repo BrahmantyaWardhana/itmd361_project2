@@ -135,18 +135,18 @@
   *general use css
   */
   
-#center-text {
+.center-text {
   text-align: center;
 }
-#float-left {
+.float-left {
   float: left;
 }
-#float-right {
+.float-right {
   float: right;
 }
-#border-bottom {
+.border-bottom {
   border-bottom: 1px solid black;
 }
-#clear {
+.clear {
   clear: both;
 }
