@@ -102,13 +102,17 @@
 
 #frusciante-page {
   background-color: #FFC0CB;
-  font-family: 'New Rocker', cursive;
   background-image: url("frubg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#frusciante-font {
+  font-family: 'New Rocker', cursive;
   color: white;
 }
+
 #frupage-wrapper {
   width: 100%;
 }
